@@ -13,7 +13,11 @@ being large repos.
 ***NEEDS Check-List***
 
 -help message with basic use and readme link
+
+
 -section of code to include install of the requirements and py setup for impacket and other github tools included
+
+
 -secton to add ssh enabling for remote access on the local network with password auth or key auth argument specifications.
 -
 
