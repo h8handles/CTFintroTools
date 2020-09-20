@@ -6,6 +6,9 @@ sudo apt install pluma
 sudo apt install crackmapexec
 sudo apt install terminator
 
+#since 2020.3 pip isn't included by default don't ask me why
+sudo apt install python3-pip
+
 
 `sudo git clone https://github.com/SecureAuthCorp/impacket.git /opt/tools`
 
