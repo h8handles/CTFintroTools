@@ -10,12 +10,26 @@ sudo apt install terminator
 sudo apt install python3-pip
 
 
-`sudo git clone https://github.com/SecureAuthCorp/impacket.git /opt/tools`
 
 #uncomment line  below to install the seclist github with all the wordlists you could need.
 #`sudo git clone https://github.com/danielmiessler/SecLists /opt/Seclist`
 
-sudo cd /opt/tools/
-mkdir scripts
 
-`sudo git clone https://github.com/Shellntel/scripts /opt/tools/scripts`
+cd /opt
+sudo mkdir tools
+cd tools
+
+`sudo git clone https://github.com/openwall/john.git`
+`sudo git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git`
+`sudo git clone https://github.com/netspooky/inhale.git`
+`sudo git clone https://github.com/SecureAuthCorp/impacket.git`
+`sudo git clone https://github.com/BullsEye0/dorks-eye.git`
+sudo cp /opt/tools/privilege-escalation-awesome-scripts-suite/linPEAS/linpeas.sh .
+sudo chmod +x linpeas.sh
+
+
+
+cd ..
+sudo mkdir honeypots
+cd honeypots
+`sudo git clone https://github.com/hacklcx/HFish.git`
