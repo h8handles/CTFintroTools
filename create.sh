@@ -12,7 +12,10 @@ sudo apt install terminator
 #since 2020.3 pip isn't included by default don't ask me why
 sudo apt install python3-pip
 
-
+#downloads discord good to keep up with a team or a platform.Debian only maybe someone would like to add a for loop?
+cd ~/Downloads
+wget https://discord.com/api/download?platform=linux&format=deb
+sudo dpkg -i discord-0.0.12
 
 #uncomment line  below to install the seclist github with all the wordlists you could need.
 #`sudo git clone https://github.com/danielmiessler/SecLists /opt/Seclist`
