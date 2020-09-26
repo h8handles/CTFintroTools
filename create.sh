@@ -6,6 +6,7 @@ echo 'This will run through the install of tools needed for hacking and ctf chal
 sudo apt update && sudo apt upgrade
 sudo apt install pluma
 sudo apt install crackmapexec
+sudo apt install gobuster
 sudo apt install terminator
 
 #since 2020.3 pip isn't included by default don't ask me why
