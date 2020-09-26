@@ -2,6 +2,8 @@
 
 echo 'This will run through the install of tools needed for hacking and ctf challenges'
 
+
+sudo apt update && sudo apt upgrade
 sudo apt install pluma
 sudo apt install crackmapexec
 sudo apt install terminator
