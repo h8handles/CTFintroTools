@@ -16,6 +16,12 @@ Run both bash scripts
 
 sudo ./create.sh && sudo ./require.sh
 
+Once the scripts finish run the following in the active terminal:
+
+chsh $(which zsh)
+
+Then close and reopen your terminal.
+
 this should be all you need so far. feel free to add a branch and populate the script with things you like. I am adding to it as I go.
 
 thanks a bunch!
