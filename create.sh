@@ -14,6 +14,9 @@ sudo apt install python3-pip
 
 #experimental!!!!!
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
 
 #downloads discord good to keep up with a team or a platform.Debian only maybe someone would like to add a for loop?
 cd ~/Downloads
