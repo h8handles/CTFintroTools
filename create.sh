@@ -12,6 +12,9 @@ sudo apt install terminator
 #since 2020.3 pip isn't included by default don't ask me why
 sudo apt install python3-pip
 
+#experimental!!!!!
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
 #downloads discord good to keep up with a team or a platform.Debian only maybe someone would like to add a for loop?
 cd ~/Downloads
 wget https://discord.com/api/download?platform=linux&format=deb
