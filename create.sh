@@ -15,7 +15,9 @@ sudo apt install python3-pip
 #experimental!!!!!
 
 
+
 sudo apt install zsh git
+
 
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
