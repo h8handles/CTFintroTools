@@ -3,7 +3,7 @@
 echo 'This will run through the install of tools needed for hacking and ctf challenges'
 
 
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 sudo apt install pluma
 sudo apt install crackmapexec
 sudo apt install gobuster
@@ -15,9 +15,11 @@ sudo apt install python3-pip
 #experimental!!!!!
 
 
-sudo apt install zsh
 
-chsh -s $(which zsh)
+sudo apt install zsh git
+
+
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
@@ -30,7 +32,7 @@ sudo dpkg -i discord-0.0.12
 
 #uncomment line  below to install the seclist github with all the wordlists you could need.
 #`sudo git clone https://github.com/danielmiessler/SecLists /opt/Seclist`
-
+sudo apt install seclists
 
 cd /opt
 sudo mkdir tools
