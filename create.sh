@@ -3,7 +3,7 @@
 echo 'This will run through the install of tools needed for hacking and ctf challenges'
 
 
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 sudo apt install pluma
 sudo apt install crackmapexec
 sudo apt install gobuster
@@ -17,7 +17,7 @@ sudo apt install python3-pip
 
 sudo apt install zsh git
 
-chsh -s $(which zsh)
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
