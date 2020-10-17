@@ -8,6 +8,7 @@ sudo apt install pluma
 sudo apt install crackmapexec
 sudo apt install gobuster
 sudo apt install terminator
+sudo apt install coreutils
 
 #since 2020.3 pip isn't included by default don't ask me why
 sudo apt install python3-pip
